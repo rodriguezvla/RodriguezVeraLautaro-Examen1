@@ -65,7 +65,7 @@ body {
 
 .imagenes-principales {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
     padding: 2rem 5%;
 }
@@ -79,7 +79,7 @@ body {
 
 .bienestar {
     padding: 2rem 5%;
-    background-color: #f4f4f4;
+    background-color: #F4F4F4;
     text-align: center;
 }
 
