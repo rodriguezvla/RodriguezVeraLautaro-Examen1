@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    order: 1;
+}
+
+.menu {
+    order: 2;
+}
+
+.menu a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 3rem 5%;
+    background-color: #e8f5e9;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    color: #2B2B2B;
+    margin-bottom: 1rem;
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.boton {
+    background-color: #285E67;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #388e3c;
+}
+
+.imagenes-principales {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    padding: 2rem 5%;
+}
+
+.imagen img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.bienestar {
+    padding: 2rem 5%;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.contenedor-bienestar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.bloque {
+    max-width: 300px;
+    text-align: center;
+}
+
+.imagen-yoga img {
+    width: 100%;
+    height: auto;
+}
+
+.productos-organicos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem 5%;
+    align-items: center;
+}
+
