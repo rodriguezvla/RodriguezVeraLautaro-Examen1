@@ -33,7 +33,7 @@ body {
 .hero {
     text-align: center;
     padding: 3rem 5%;
-    background-color: #e8f5e9;
+    background-color:white;
 }
 
 .titulo {
@@ -60,7 +60,7 @@ body {
 }
 
 .boton:hover {
-    background-color: #388e3c;
+    background-color: black;
 }
 
 .imagenes-principales {
